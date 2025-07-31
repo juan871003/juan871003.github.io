@@ -6,34 +6,32 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Juan Castano
+title: Senior Full Stack Software Engineer
+email: juan871003@gmail.com
+website: https://juan871003.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+github_username:  juan871003
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+linkedin_username: juan-castano
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,71 +44,172 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Juan and I'm a Senior Full Stack Software Engineer with extensive expertise in Web Development. I specialize in modern development practices and have a proven track record of delivering high-quality solutions. I excel in client communication and requirement analysis, consistently translating business needs into successful technical implementations.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>JavaScript/TypeScript</mark>, <mark>React</mark>, <mark>NodeJS</mark>, <mark>GraphQL</mark>, and <mark>AWS</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: Office Automation Application
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Streamlines weekly repetitive tasks including automated email sending and Excel file management
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Built an automation tool that handles weekly repetitive tasks like sending emails with specific information from the Internet and filling Excel files. This project demonstrates my ability to identify inefficiencies and create solutions that save time and reduce manual work.
+          
+          Technologies used: <mark>JavaScript</mark>, <mark>Electron</mark>, <mark>Vue</mark>, <mark>NodeJS</mark>, <mark>Puppeteer</mark>
+      
+      - layout: top-middle
+        title: Web Scraping & SMS Notification System
+        quote: >
+          Automated web scraping application with SMS notifications for subscribers
+        description: | # this will include new lines to allow paragraphs
+          Developed a web application that logs into websites, scrapes specific information, and sends SMS notifications to subscribers interested in that data. This project showcases my skills in web automation and cloud services integration.
+          
+          Technologies used: <mark>JavaScript</mark>, <mark>Puppeteer</mark>, <mark>NodeJS</mark>, <mark>Amazon Elastic Beanstalk</mark>, <mark>Amazon SNS</mark>
+      
+      - layout: top-middle
+        title: Multiple Choice Test Platform
+        quote: >
+          Interactive web application for creating and taking multiple choice tests
+        description: | # this will include new lines to allow paragraphs
+          Created a web application that allows users to create and take multiple choice tests for study purposes. This project demonstrates my full-stack development skills using modern cloud technologies and serverless architecture.
+          
+          Technologies used: <mark>JavaScript</mark>, <mark>React</mark>, <mark>Amazon Amplify</mark>, <mark>DynamoDB</mark>, <mark>Amazon S3</mark>, <mark>GraphQL</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Bingo Industries
+        sub_title: Senior Full Stack Software Engineer
+        caption: April 2025 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Leading development of core systems for transportation logistics and waste management operations
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Currently interpreting and analyzing business requirements via Jira, engaging in technical discussions, and implementing effective solutions. I provision and manage AWS infrastructure using AWS CDK while ensuring adherence to security guidelines.
+          
+          **Key Achievements:**
+          - Designed and developed three core systems from inception: a centralized web application for transportation logistics management, a Driver App, and an Electron application deployed at Tip Sites nationwide
+          - Centralized operational data to facilitate comprehensive reporting and provide real-time business insights
+          - Utilized LLMs such as Claude Sonnet, Gemini, and GPT in Agent mode with MCP servers to accelerate development
+          
+          **Technologies:** <mark>TypeScript</mark>, <mark>React</mark>, <mark>PostgreSQL</mark>, <mark>NodeJS</mark>, <mark>AWS CDK</mark>, <mark>GraphQL</mark>
+      
+      - layout: left
+        title: Exogee Pty. Ltd.
+        sub_title: Full Stack Software Engineer
+        caption: January 2020 - March 2025
+        quote: >
+          Developed large-scale applications for waste management and sustainability sectors
+        description: | # this will include new lines to allow paragraphs
+          Designed, built and implemented software solutions using modern web technologies. Generated technical documentation and wrote code in accordance with company coding conventions and quality standards.
+          
+          **Key Achievements:**
+          - Implemented web-based applications using Gatsby, KeystoneJS, React, Contentful, PostgreSQL, and AWS services
+          - Helped develop a large-scale TypeScript project (React, Electron, NodeJS, GraphQL, React Native) for one of Australia's largest Waste Management organizations
+          - Developed a React Native mobile application for soft-plastic recycling with bag scanning functionality
+          - Contributed to Graphweaver, a public repository that connects different data sources into one GraphQL API
+          
+          **Technologies:** <mark>TypeScript</mark>, <mark>React</mark>, <mark>React Native</mark>, <mark>NodeJS</mark>, <mark>GraphQL</mark>, <mark>Electron</mark>
+      
+      - layout: left
+        title: Procusys PTY LTD
+        sub_title: Software Developer
+        caption: March 2013 - January 2020
+        quote: >
+          Developed and maintained SaaS procurement systems with focus on automation and AWS migration
+        description: | # this will include new lines to allow paragraphs
+          Gathered and implemented client requirements, performed testing, debugging, and developed automated functional tests. Generated technical documentation and wrote code following company coding conventions.
+          
+          **Key Achievements:**
+          - Assisted with migration of on-premises servers to AWS
+          - Implemented automation testing using Selenium for the company's main product
+          - Enhanced a web-based SaaS Procurement System significantly improving functionality and user experience
+          
+          **Technologies:** <mark>ASP.NET</mark>, <mark>C#</mark>, <mark>SQL Server</mark>, <mark>JavaScript</mark>, <mark>AWS</mark>
+      
+      - layout: left
+        title: New Humans of Australia (NHOA)
+        sub_title: Software Developer
+        caption: February 2016 - February 2017
+        quote: >
+          Developed automation solution for social media content publishing
+        description: | # this will include new lines to allow paragraphs
+          Developed an MVC web application to automate the publishing of information from Facebook to the organization's website, streamlining content management processes.
+          
+          **Technologies:** <mark>ASP.NET MVC</mark>, <mark>C#</mark>, <mark>SQL Server</mark>, <mark>JavaScript</mark>, <mark>Microsoft Azure</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: TAFE NSW – Institute of Applied Technology Digital
+        caption: July 2025
+        sub_title: Introduction to Artificial Intelligence
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Completed microskill covering fundamental AI concepts and practical applications
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Completed the "Introduction to Artificial Intelligence" Microskill, covering fundamental concepts and practical applications of AI to provide a strong foundation in artificial intelligence principles and techniques.
+      
+      - layout: left
+        title: University of Technology Sydney (UTS)
+        caption: 2014 - 2016
+        sub_title: Bachelor of Science and Information Technology
+        quote: >
+          GPA 3.24 over 4.0 – Award Level: Distinction
+        description: | # this will include new lines to allow paragraphs
+          Achieved distinction-level performance with a strong focus on practical software development. Completed significant projects including a UTS Subject Scheduler and Kids Programming Web Application, demonstrating both technical skills and user-centered design thinking.
+          
+          **Notable Projects:**
+          - UTS Subject Scheduler
+          - Kids Programming Web Application
+      
+      - layout: left
+        title: Kent Institute Australia
+        caption: 2010 - 2011
+        sub_title: Certificate IV in Information Technology (Website Development)
+        description: | # this will include new lines to allow paragraphs
+          Focused on web development fundamentals including HTML, JavaScript, and the interaction between MySQL and PHP. This foundation provided the technical skills that launched my career in software development.
+      
+      - layout: left
+        title: University of Politecnico in Colombia
+        caption: 2006 - 2009
+        sub_title: Diploma of Systems Administrator Technologist
+        description: | # this will include new lines to allow paragraphs
+          Studied System Engineering with focus on systems administration and technology management, providing a solid foundation in computer systems and infrastructure.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Technical Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Languages:** Professional experience with <mark>JavaScript/TypeScript</mark>, <mark>NodeJS</mark>. Exposure to <mark>Java</mark>.
+      
+      **Front-end:** Professional experience with <mark>HTML</mark>, <mark>CSS</mark>, <mark>React</mark>, <mark>Vue</mark>. Exposure to <mark>Angular 2</mark>.
+      
+      **DevOps & Cloud:** Professional experience with <mark>AWS</mark> (Amplify, SNS, EC2, EBS, S3, Lambda, SQS, RDS, CloudWatch). Exposure to <mark>Azure</mark>.
+      
+      **Data Storage:** Professional experience with <mark>SQL Server</mark>, <mark>PostgreSQL</mark>. Exposure to <mark>DynamoDB</mark>.
+      
+      **Testing & QA:** Professional experience with <mark>Jest</mark> and <mark>Playwright</mark>.
+      
+      **Methodologies:** <mark>SCRUM</mark>, <mark>Agile Development</mark>
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Currently expanding my expertise in **Machine Learning** and **Artificial Intelligence** while maintaining my professional focus on enterprise-level TypeScript development. I'm passionate about leveraging modern technologies to solve real-world problems and create efficient, scalable solutions.
+      
+      As an **Australian Citizen** with full working rights, I bring not only technical expertise but also strong client communication skills and the ability to translate complex business requirements into successful technical implementations.
+      
+      I'm particularly interested in:
+      - Modern web development practices and emerging technologies
+      - AI/ML applications in software development
+      - Process automation and efficiency optimization
+      - Open source contributions and community collaboration
 
 # Footer
 footer_show_references: true
