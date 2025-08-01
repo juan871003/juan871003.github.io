@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: juan871003/juan871003.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -46,7 +46,7 @@ linkedin_username: juan-castano
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Juan and I'm a Senior Full Stack Software Engineer with extensive expertise in Web Development. I specialize in modern development practices and have a proven track record of delivering high-quality solutions. I excel in client communication and requirement analysis, consistently translating business needs into successful technical implementations.
+  Hi 👋, my name's Juan and I'm a Senior Full Stack Software Engineer with extensive expertise in Web Development. I specialise in modern development practices and have a proven track record of delivering high-quality solutions. I excel in client communication and requirement analysis, consistently translating business needs into successful technical implementations.
 
   I am most skilled in: <mark>JavaScript/TypeScript</mark>, <mark>React</mark>, <mark>NodeJS</mark>, <mark>GraphQL</mark>, and <mark>AWS</mark>
 
@@ -54,6 +54,81 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Enterprise Waste Management System Modernization
+        quote: >
+          Comprehensive multi-platform solution replacing legacy systems for a large-scale waste management operation
+        description: | # this will include new lines to allow paragraphs
+          Led the complete modernization of multiple legacy systems for a major waste management company through a multi-year, enterprise-scale project. Architected and implemented a comprehensive ecosystem of interconnected applications serving different operational roles.
+          
+          **System Components:**
+          - **Web Application:** Centralized platform for administrators and allocators to manage jobs, drivers, vehicles, and operations
+          - **Mobile Application:** React Native driver app for field operations and real-time updates
+          - **Desktop Application:** Electron-based system for tip-sites with hardware integration (scales, cameras)
+          - **Backend API:** Unified GraphQL API connecting all systems and external integrations (CRMs, third-party services)
+          
+          **Key Achievements:**
+          - Established monorepo architecture and project scaffolding from inception
+          - Collaborated effectively across large, multi-disciplinary teams using Agile methodologies
+          - Managed complex stakeholder communication including project managers, testers, and business analysts
+          - Successfully delivered system to production with zero critical issues
+          - Recognized for exceptional teamwork and technical leadership throughout the project lifecycle
+          
+          Technologies used: <mark>TypeScript</mark>, <mark>React</mark>, <mark>React Native</mark>, <mark>Electron</mark>, <mark>GraphQL</mark>, <mark>NodeJS</mark>, <mark>PostgreSQL</mark>, <mark>Monorepo Architecture</mark>
+      
+      - layout: top-middle
+        title: Enterprise Content Management System
+        quote: >
+          High-performance CMS platform with advanced user authentication and content delivery optimization
+        description: | # this will include new lines to allow paragraphs
+          Developed a comprehensive CMS solution featuring role-based access control and lightning-fast content delivery. Implemented an admin portal for bulk content management and user administration, whilst ensuring secure content delivery to authenticated users only.
+          
+          ![CMS Website](/images/cms-website.png "CMS Website")
+          
+          **Key Features:**
+          - Advanced user authentication and authorisation system
+          - Bulk content management capabilities
+          - Optimised content preloading for enhanced user experience
+          - Responsive design implementation
+          
+          Technologies used: <mark>TypeScript</mark>, <mark>Gatsby</mark>, <mark>Contentful</mark>, <mark>KeystoneJS</mark>, <mark>GraphQL</mark>, <mark>NodeJS</mark>, <mark>AWS Fargate</mark>, <mark>PostgreSQL</mark>, <mark>Netlify</mark>
+      
+      - layout: top-middle
+        title: Graphweaver - Open Source GraphQL Data Integration
+        link: https://graphweaver.com/
+        link_text: Visit Graphweaver
+        quote: >
+          Open source library for seamlessly connecting multiple data sources into a unified GraphQL API
+        description: | # this will include new lines to allow paragraphs
+          Contributed to the development of an innovative open source library that enables organisations to integrate disparate data sources into a single, cohesive GraphQL API. The solution provides transparent data access regardless of underlying storage systems and includes comprehensive security controls.
+          
+          ![Graphweaver](/images/graphweaver.png "Graphweaver")
+          
+          **Key Contributions:**
+          - Implemented new feature requirements based on community feedback
+          - Resolved critical issues and bugs reported by the open source community
+          - Enhanced fine-grained security implementation
+          - Contributed to admin portal development for data visualization and editing
+          
+          Technologies used: <mark>TypeScript</mark>, <mark>GraphQL</mark>, <mark>NodeJS</mark>, <mark>Multiple Database Systems</mark>
+      
+      - layout: top-middle
+        title: Progressive Web App for Recycling Operations
+        quote: >
+          Next.js-based progressive web application with integrated payment processing and scanning capabilities
+        description: | # this will include new lines to allow paragraphs
+          Delivered a modern progressive web application for a soft plastics recycling company within strict time constraints. The solution replaced legacy systems whilst maintaining operational continuity and included advanced scanning capabilities for streamlined operations.
+          
+          ![Progressive App](/images/progressive-app.png "Progressive App")
+          
+          **Key Responsibilities:**
+          - Stripe payment gateway integration and processing
+          - Frontend implementation across multiple application pages
+          - Google APIs integration for enhanced functionality
+          - Collaborative development in a high-pressure, time-sensitive environment
+          
+          Technologies used: <mark>Next.js</mark>, <mark>TypeScript</mark>, <mark>Mantine</mark>, <mark>Stripe</mark>, <mark>Apollo Client</mark>, <mark>Apollo Server</mark>, <mark>GraphQL</mark>, <mark>Google APIs</mark>
+
       - layout: top-middle
         title: Office Automation Application
         quote: >
@@ -91,12 +166,12 @@ content:
         quote: >
           Leading development of core systems for transportation logistics and waste management operations
         description: | # this will include new lines to allow paragraphs
-          Currently interpreting and analyzing business requirements via Jira, engaging in technical discussions, and implementing effective solutions. I provision and manage AWS infrastructure using AWS CDK while ensuring adherence to security guidelines.
+          Currently interpreting and analysing business requirements via Jira, engaging in technical discussions, and implementing effective solutions. I provision and manage AWS infrastructure using AWS CDK whilst ensuring adherence to security guidelines.
           
           **Key Achievements:**
-          - Designed and developed three core systems from inception: a centralized web application for transportation logistics management, a Driver App, and an Electron application deployed at Tip Sites nationwide
-          - Centralized operational data to facilitate comprehensive reporting and provide real-time business insights
-          - Utilized LLMs such as Claude Sonnet, Gemini, and GPT in Agent mode with MCP servers to accelerate development
+          - Designed and developed three core systems from inception: a centralised web application for transportation logistics management, a Driver App, and an Electron application deployed at Tip Sites nationwide
+          - Centralised operational data to facilitate comprehensive reporting and provide real-time business insights
+          - Utilised LLMs such as Claude Sonnet, Gemini, and GPT in Agent mode with MCP servers to accelerate development
           
           **Technologies:** <mark>TypeScript</mark>, <mark>React</mark>, <mark>PostgreSQL</mark>, <mark>NodeJS</mark>, <mark>AWS CDK</mark>, <mark>GraphQL</mark>
       
@@ -111,7 +186,7 @@ content:
           
           **Key Achievements:**
           - Implemented web-based applications using Gatsby, KeystoneJS, React, Contentful, PostgreSQL, and AWS services
-          - Helped develop a large-scale TypeScript project (React, Electron, NodeJS, GraphQL, React Native) for one of Australia's largest Waste Management organizations
+          - Helped develop a large-scale TypeScript project (React, Electron, NodeJS, GraphQL, React Native) for one of Australia's largest Waste Management organisations
           - Developed a React Native mobile application for soft-plastic recycling with bag scanning functionality
           - Contributed to Graphweaver, a public repository that connects different data sources into one GraphQL API
           
@@ -140,7 +215,7 @@ content:
         quote: >
           Developed automation solution for social media content publishing
         description: | # this will include new lines to allow paragraphs
-          Developed an MVC web application to automate the publishing of information from Facebook to the organization's website, streamlining content management processes.
+          Developed an MVC web application to automate the publishing of information from Facebook to the organisation's website, streamlining content management processes.
           
           **Technologies:** <mark>ASP.NET MVC</mark>, <mark>C#</mark>, <mark>SQL Server</mark>, <mark>JavaScript</mark>, <mark>Microsoft Azure</mark>
 
@@ -201,14 +276,14 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Currently expanding my expertise in **Machine Learning** and **Artificial Intelligence** while maintaining my professional focus on enterprise-level TypeScript development. I'm passionate about leveraging modern technologies to solve real-world problems and create efficient, scalable solutions.
+      Currently expanding my expertise in **Machine Learning** and **Artificial Intelligence** whilst maintaining my professional focus on enterprise-level TypeScript development. I'm passionate about leveraging modern technologies to solve real-world problems and create efficient, scaleable solutions.
       
       As an **Australian Citizen** with full working rights, I bring not only technical expertise but also strong client communication skills and the ability to translate complex business requirements into successful technical implementations.
       
       I'm particularly interested in:
       - Modern web development practices and emerging technologies
       - AI/ML applications in software development
-      - Process automation and efficiency optimization
+      - Process automation and efficiency optimisation
       - Open source contributions and community collaboration
 
 # Footer

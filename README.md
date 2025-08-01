@@ -1,14 +1,14 @@
-# Juan Castano - Personal Resume
+# Juan Castano - Personal CV
 
 > A snapshot of my career journey, including experience, education, and skills. Always evolving.
 
 ## 🌐 Live Website
 
-Visit my resume website: **[juan871003.github.io](https://juan871003.github.io/)**
+Visit my CV website: **[juan871003.github.io](https://juan871003.github.io/)**
 
 ## 📄 About This Repository
 
-This repository contains the source code for my personal resume website, built using Jekyll and hosted on GitHub Pages. The site showcases my professional experience as a Senior Full Stack Software Engineer, including my technical skills, project portfolio, work experience, and educational background.
+This repository contains the source code for my personal CV website, built using Jekyll and hosted on GitHub Pages. The site showcases my professional experience as a Senior Full Stack Software Engineer, including my technical skills, project portfolio, work experience, and educational background.
 
 ## 🔗 Connect With Me
 
@@ -23,7 +23,7 @@ This website is built using the excellent **Modern Resume Theme** created by [Ja
 - **Template Repository**: [sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme)
 - **Template Creator**: [James Grant](https://github.com/sproogen)
 
-A huge thank you to James for creating such a clean, professional, and easy-to-customize resume template! 🙏
+A huge thank you to James for creating such a clean, professional, and easy-to-customise CV template! 🙏
 
 ## 🛠️ Built With
 
@@ -37,8 +37,8 @@ A huge thank you to James for creating such a clean, professional, and easy-to-c
 - ✅ Responsive design
 - ✅ Dark mode support
 - ✅ Professional layout
-- ✅ Easy to customize
-- ✅ SEO optimized
+- ✅ Easy to customise
+- ✅ SEO optimised
 - ✅ Fast loading
 
 ---
