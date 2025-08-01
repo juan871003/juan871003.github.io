@@ -46,7 +46,7 @@ linkedin_username: juan-castano
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi 👋, my name's Juan and I'm a Senior Full Stack Software Engineer with extensive expertise in Web Development. I specialise in modern development practices and have a proven track record of delivering high-quality solutions. I excel in client communication and requirement analysis, consistently translating business needs into successful technical implementations.
+  Hi, my name is Juan and I'm a Senior Full Stack Software Engineer with extensive expertise in Web Development. I specialise in modern development practices and have a proven track record of delivering high-quality solutions. I excel in client communication and requirement analysis, consistently translating business needs into successful technical implementations.
 
   I am most skilled in: <mark>JavaScript/TypeScript</mark>, <mark>React</mark>, <mark>NodeJS</mark>, <mark>GraphQL</mark>, and <mark>AWS</mark>
 
@@ -62,7 +62,7 @@ content:
           Led the complete modernization of multiple legacy systems for a major waste management company through a multi-year, enterprise-scale project. Architected and implemented a comprehensive ecosystem of interconnected applications serving different operational roles.
           
           **System Components:**
-          - **Web Application:** Centralized platform for administrators and allocators to manage jobs, drivers, vehicles, and operations
+          - **Web Application:** Centralised platform for administrators and allocators to manage jobs, drivers, vehicles, and operations
           - **Mobile Application:** React Native driver app for field operations and real-time updates
           - **Desktop Application:** Electron-based system for tip-sites with hardware integration (scales, cameras)
           - **Backend API:** Unified GraphQL API connecting all systems and external integrations (CRMs, third-party services)
@@ -74,22 +74,34 @@ content:
           - Successfully delivered system to production with zero critical issues
           - Recognized for exceptional teamwork and technical leadership throughout the project lifecycle
           
+          **Project Outcomes:**
+          - Successfully replaced multiple legacy systems with modern, interconnected solutions
+          - Delivered comprehensive ecosystem serving different operational roles within the organisation
+          - Enabled seamless integration between web, mobile, and desktop applications
+          - Achieved successful production deployment with zero critical issues
+          - Enhanced operational efficiency through centralised data management and real-time insights
+          
           Technologies used: <mark>TypeScript</mark>, <mark>React</mark>, <mark>React Native</mark>, <mark>Electron</mark>, <mark>GraphQL</mark>, <mark>NodeJS</mark>, <mark>PostgreSQL</mark>, <mark>Monorepo Architecture</mark>
       
       - layout: top-middle
         title: Enterprise Content Management System
         quote: >
-          High-performance CMS platform with advanced user authentication and content delivery optimization
+          High-performance CMS platform with advanced user authentication and content delivery optimisation
         description: | # this will include new lines to allow paragraphs
           Developed a comprehensive CMS solution featuring role-based access control and lightning-fast content delivery. Implemented an admin portal for bulk content management and user administration, whilst ensuring secure content delivery to authenticated users only.
-          
-          ![CMS Website](/images/cms-website.png "CMS Website")
           
           **Key Features:**
           - Advanced user authentication and authorisation system
           - Bulk content management capabilities
           - Optimised content preloading for enhanced user experience
           - Responsive design implementation
+          
+          **Project Outcomes:**
+          - Delivered lightning-fast content delivery through optimised preloading
+          - Successfully implemented secure content access for authenticated users only
+          - Achieved exceptional responsive design translation from Figma designs
+          - Enabled efficient bulk content management and user administration
+          - Mastered modern CMS development practices and responsive design principles
           
           Technologies used: <mark>TypeScript</mark>, <mark>Gatsby</mark>, <mark>Contentful</mark>, <mark>KeystoneJS</mark>, <mark>GraphQL</mark>, <mark>NodeJS</mark>, <mark>AWS Fargate</mark>, <mark>PostgreSQL</mark>, <mark>Netlify</mark>
       
@@ -102,13 +114,18 @@ content:
         description: | # this will include new lines to allow paragraphs
           Contributed to the development of an innovative open source library that enables organisations to integrate disparate data sources into a single, cohesive GraphQL API. The solution provides transparent data access regardless of underlying storage systems and includes comprehensive security controls.
           
-          ![Graphweaver](/images/graphweaver.png "Graphweaver")
-          
           **Key Contributions:**
           - Implemented new feature requirements based on community feedback
           - Resolved critical issues and bugs reported by the open source community
           - Enhanced fine-grained security implementation
-          - Contributed to admin portal development for data visualization and editing
+          - Contributed to admin portal development for data visualisation and editing
+          
+          **Project Outcomes:**
+          - Successfully delivered open source library enabling seamless multi-source data integration
+          - Provided transparent data access regardless of underlying storage systems
+          - Enabled organisations to query linked data entities across different systems through unified GraphQL schema
+          - Contributed to community-driven development with active issue resolution
+          - Enhanced developer experience through comprehensive admin portal functionality
           
           Technologies used: <mark>TypeScript</mark>, <mark>GraphQL</mark>, <mark>NodeJS</mark>, <mark>Multiple Database Systems</mark>
       
@@ -119,13 +136,18 @@ content:
         description: | # this will include new lines to allow paragraphs
           Delivered a modern progressive web application for a soft plastics recycling company within strict time constraints. The solution replaced legacy systems whilst maintaining operational continuity and included advanced scanning capabilities for streamlined operations.
           
-          ![Progressive App](/images/progressive-app.png "Progressive App")
-          
           **Key Responsibilities:**
           - Stripe payment gateway integration and processing
           - Frontend implementation across multiple application pages
           - Google APIs integration for enhanced functionality
           - Collaborative development in a high-pressure, time-sensitive environment
+          
+          **Project Outcomes:**
+          - Successfully delivered progressive web application within record-breaking timeframe
+          - Achieved seamless legacy system replacement with zero post-launch issues
+          - Implemented advanced scanning capabilities for streamlined recycling operations
+          - Delivered robust payment processing system with Stripe integration
+          - Maintained operational continuity during system transition
           
           Technologies used: <mark>Next.js</mark>, <mark>TypeScript</mark>, <mark>Mantine</mark>, <mark>Stripe</mark>, <mark>Apollo Client</mark>, <mark>Apollo Server</mark>, <mark>GraphQL</mark>, <mark>Google APIs</mark>
 
@@ -136,6 +158,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           Built an automation tool that handles weekly repetitive tasks like sending emails with specific information from the Internet and filling Excel files. This project demonstrates my ability to identify inefficiencies and create solutions that save time and reduce manual work.
           
+          **Project Outcomes:**
+          - Successfully automated weekly repetitive tasks, significantly reducing manual workload
+          - Eliminated human error in routine email sending and Excel file management
+          - Improved operational efficiency through intelligent task automation
+          - Demonstrated problem-solving skills by identifying and addressing workflow inefficiencies
+          
           Technologies used: <mark>JavaScript</mark>, <mark>Electron</mark>, <mark>Vue</mark>, <mark>NodeJS</mark>, <mark>Puppeteer</mark>
       
       - layout: top-middle
@@ -145,6 +173,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           Developed a web application that logs into websites, scrapes specific information, and sends SMS notifications to subscribers interested in that data. This project showcases my skills in web automation and cloud services integration.
           
+          **Project Outcomes:**
+          - Successfully implemented automated web scraping with reliable data extraction
+          - Delivered real-time SMS notification system for subscriber engagement
+          - Achieved seamless cloud services integration using AWS infrastructure
+          - Demonstrated expertise in web automation and cloud-based notification systems
+          
           Technologies used: <mark>JavaScript</mark>, <mark>Puppeteer</mark>, <mark>NodeJS</mark>, <mark>Amazon Elastic Beanstalk</mark>, <mark>Amazon SNS</mark>
       
       - layout: top-middle
@@ -153,6 +187,12 @@ content:
           Interactive web application for creating and taking multiple choice tests
         description: | # this will include new lines to allow paragraphs
           Created a web application that allows users to create and take multiple choice tests for study purposes. This project demonstrates my full-stack development skills using modern cloud technologies and serverless architecture.
+          
+          **Project Outcomes:**
+          - Successfully delivered interactive test creation and taking platform
+          - Implemented serverless architecture for scalable performance
+          - Achieved seamless user experience for educational purposes
+          - Demonstrated proficiency in modern cloud technologies and full-stack development
           
           Technologies used: <mark>JavaScript</mark>, <mark>React</mark>, <mark>Amazon Amplify</mark>, <mark>DynamoDB</mark>, <mark>Amazon S3</mark>, <mark>GraphQL</mark>
 
