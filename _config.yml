@@ -263,6 +263,25 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: AWS Training & Certification
+        caption: Aug 2025
+        sub_title: AWS Artificial Intelligence Practitioner Learning Plan
+        quote: >
+          Comprehensive AI/ML training program focusing on AWS services and responsible AI practices
+        description: | # this will include new lines to allow paragraphs
+          **Achievements:**
+          
+          Explored and applied AWS AI/ML services such as Amazon SageMaker and Amazon Bedrock for data preparation, model training, deployment, and monitoring.
+          
+          Developed expertise in generative AI technologies, including natural language processing and computer vision.
+          
+          Learnt to determine appropriate AI/ML solutions for specific use cases, optimising performance, cost management, and scalability.
+          
+          Emphasised responsible AI/ML practices, focussing on fairness, accountability, and transparency.
+          
+          Analysed real-world case studies and best practices for successful AI/ML implementations on AWS.
+      
+      - layout: left
         title: TAFE NSW – Institute of Applied Technology Digital
         caption: July 2025
         sub_title: Introduction to Artificial Intelligence
