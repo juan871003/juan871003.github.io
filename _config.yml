@@ -202,11 +202,11 @@ content:
       - layout: left
         title: Bingo Industries
         sub_title: Senior Full Stack Software Engineer
-        caption: April 2025 - Present
+        caption: February 2021 - Present
         quote: >
           Leading development of core systems for transportation logistics and waste management operations
         description: | # this will include new lines to allow paragraphs
-          Currently interpreting and analysing business requirements via Jira, engaging in technical discussions, and implementing effective solutions. I provision and manage AWS infrastructure using AWS CDK whilst ensuring adherence to security guidelines.
+          Currently interpreting and analysing business requirements via Jira, engaging in technical discussions, and implementing effective solutions. I provision and manage AWS infrastructure using AWS CDK whilst ensuring adherence to security guidelines. I was heavily involved from the project's inception while Bingo was a customer of Exogee, and I continue to lead the development of their core systems.
           
           **Key Achievements:**
           - Designed and developed three core systems from inception: a centralised web application for transportation logistics management, a Driver App, and an Electron application deployed at Tip Sites nationwide
