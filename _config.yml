@@ -200,13 +200,32 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: NEOS Services Pty Limited
+        sub_title: Senior Software Engineer
+        caption: November 2025 - Present
+        quote: >
+          Core systems for life insurance operations—policy, billing, and payments—across backend services and modern web applications
+        description: | # this will include new lines to allow paragraphs
+          Developing and maintaining core systems for life insurance operations, focusing on policy, billing, and payments workflows across backend services and modern web applications. Contribute to full-stack delivery from API design through to user-facing interfaces, working in a PR-driven, test-oriented Agile environment.
+          
+          **Key Achievements:**
+          - Delivered policy and billing domain features, including service-layer logic, validation, persistence, and REST APIs, alongside corresponding admin and customer-facing interfaces
+          - Contributed to a payments backend service, designing API contracts and implementing reliable asynchronous processing for financial workflows
+          - Built internal operational tooling for managing accounts and financial records, as well as user-facing flows for data capture and document uploads
+          - Integrated external systems for data synchronisation, notifications, and status updates with environment-aware configuration
+          - Improved application security and reliability through enhanced validation, access patterns, and data-handling practices
+          - Maintained high code quality with automated testing and continuous tech-debt reduction alongside feature delivery
+          
+          **Technologies:** <mark>TypeScript</mark>, <mark>NestJS</mark>, <mark>Next.js</mark>, <mark>React</mark>, <mark>PostgreSQL</mark>, <mark>REST APIs</mark>, <mark>Jest - Automated Testing</mark>, <mark>Git</mark>, <mark>Agile</mark>, <mark>Cloud & CI/CD tooling</mark>
+      
+      - layout: left
         title: Bingo Industries
         sub_title: Senior Full Stack Software Engineer
-        caption: February 2021 - Present
+        caption: February 2021 - November 2025
         quote: >
-          Leading development of core systems for transportation logistics and waste management operations
+          Led development of core systems for transportation logistics and waste management operations
         description: | # this will include new lines to allow paragraphs
-          Currently interpreting and analysing business requirements via Jira, engaging in technical discussions, and implementing effective solutions. I provision and manage AWS infrastructure using AWS CDK whilst ensuring adherence to security guidelines. I was heavily involved from the project's inception while Bingo was a customer of Exogee, and I continue to lead the development of their core systems.
+          Interpreted and analysed business requirements via Jira, engaged in technical discussions, and implemented effective solutions. Provisioned and managed AWS infrastructure using AWS CDK whilst ensuring adherence to security guidelines. Was heavily involved from the project's inception while Bingo was a customer of Exogee, and led the development of their core systems.
           
           **Key Achievements:**
           - Designed and developed three core systems from inception: a centralised web application for transportation logistics management, a Driver App, and an Electron application deployed at Tip Sites nationwide
