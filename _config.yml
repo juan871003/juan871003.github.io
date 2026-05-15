@@ -200,7 +200,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: NEOS Services Pty Limited
+        title: NEOS Life
         sub_title: Senior Software Engineer
         caption: November 2025 - Present
         quote: >
